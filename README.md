@@ -10,6 +10,6 @@ It supports the following commands:
 * do-what-it-says - executed with no arguments, it executes the command contained within a file called random.txt
 
 **Example usage:**
-> *node liri.js movie-this "The Matrix"*
+> node liri.js movie-this "The Matrix"
 
 A demonstration of the application can be found [here](https://drive.google.com/file/d/1mv_wJTv5UJZBITAt6eAB_eDBdmWV7PX_/view?usp=sharing).
