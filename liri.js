@@ -6,11 +6,10 @@ var Spotify = require("node-spotify-api");
 var moment = require("moment");
 var fs = require("fs");
 
-
-
-
 var action = process.argv[2];
-var arg = process.argv[3];
+var arg = process.argv.slice(3).join(" ");
+
+
 
 handleCommand(action, arg);
 
